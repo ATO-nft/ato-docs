@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ato.works/sitemap.xml.gz
