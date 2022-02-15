@@ -23,6 +23,8 @@ datasLoad(param1, param2) {
 
 <div style=”display: none”> <!-- invisible fields –>
 
+<input id="CreatorName">
+<input id="CreatorAddress">
 <input id="FileType" value="png">
 <input id="FileSize" value="24000">
 <input id="ListNetwork" value="Polygon">
@@ -34,7 +36,7 @@ datasLoad(param1, param2) {
 <input id="SupplyNumber" value="1">
 <input id="RightExclusive" value="true">
 <input id="NonReissuance" value="true">
-<input id="ResaleRight" value="8%">
+<input id="ResaleRight" value="8.0">
 <input id="VersionApi" value="v1.0">
 <input id="NftLicense" value="art">
 <input id="NftStandard" value="ERC-721">
@@ -78,10 +80,8 @@ _Add your address and API key to test the production mode._
 4. Load your API key file:
 
 ```html
-<input id="signature" name="signature" type="text" value="" hidden />
+<input type="file" onchange="loadKey(this)" />
 ```
-
-The value of `signature` is your API key.
 
 ## Step 3
 
