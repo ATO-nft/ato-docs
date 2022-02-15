@@ -1,5 +1,3 @@
-## Fields
-
 - `ArtworkName`: the name of the NFT
 - `FileName`: the name of the media file linked with the NFT
 - `FileType`: the extension of the media file
@@ -7,13 +5,13 @@
 - `CreatorName`: the name of the NFT creator
 - `CreatorAddress`: the Ethereum adddress of the NFT creator
 - `ListNetwork`: the network to which the NFT is published
-- `RightLevel`: private use, public use limited to resale, or public use for all purposes 
+- `RightLevel`: private use, public use limited to resale, or public use for all purposes
 - `RightAdapt`: right to adapt (bool)
 - `RightLogo`: right to add a logo (bool)
 - `RightMerch`: merchandising right (bool)
 - `RightDuration`: duration of the rights
 - `SupplyNumber`: number of editions of the NFT
-- `RightExclusive`: exclusivity of 
+- `RightExclusive`: exclusivity of
 - `NonReissuance`: non-reissuance guarantee (bool)
 - `ResaleRight`: percentage of resale right
 - `VersionApi`: version of the API
