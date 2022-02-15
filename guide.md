@@ -9,7 +9,7 @@ _Test in demo mode: your address and API key are not required._
 
 ```html
 <script>
-datasLoad(param1) {
+datasLoad(param1, param2) {
   document.getElementById("CreatorName").value=param1;
   document.getElementById("CreatorAddress").value=param2;
 }
