@@ -35,9 +35,60 @@ JSONValues = {
 }
 ```
 
-##### Expected values
+#### Expected values
 
-[tableau]
+###### Artwork
+
+| Name        | Type   | Description                      | Example        |
+| :---------- | :----- | :------------------------------- | :------------- |
+| ArtworkName | String | min : 1 <br/> max : 32           | NFT #1         |
+| NftStandard | select | ERC-721 <br/> ERC-1155           | ERC-721        |
+| NftLicence  | select | Art <br/> Gaming <br/> Redeemale | Art            |
+| ArtworkDesc | String | min : 1 <br/> max : 512          | This is a demo |
+
+###### Image
+
+| Name     | Type   | Description            | Example     |
+| :------- | :----- | :--------------------- | :---------- |
+| FileName | String | min : 1 <br/> max : 32 | artwork.png |
+| FileType | String | min : 1 <br/>max : 10  | png         |
+| FileSize | Number | max : 40000000         | 24000       |
+
+###### Artist
+
+| Name           | Type   | Description                          | Example                                    |
+| :------------- | :----- | :----------------------------------- | :----------------------------------------- |
+| CreatorName    | String | min : 1 <br/> max : 32               | Francis                                    |
+| CreatorAddress | String | min : 42 <br/> max : 42              | 0x0000000000000000000000000000000000000000 |
+| ListNetwork    | select | Polygon <br/> Ethereum <br/> Rinkeby | Rinkeby                                    |
+
+###### Rights
+
+| Name              | Type     | Description             | Example |
+| :---------------- | :------- | :---------------------- | :------ |
+| RightLevel        | Number   | min : 1 <br/> max : 3   | 3       |
+| RightAdapt \*     | checkbox | on <br/> undefined      |         |
+| RightLogo \*      | checkbox | on <br/> undefined      |         |
+| RightMerch \*     | checkbox | on <br/> undefined      |         |
+| RightDuration     | select   | 1...70                  | 70      |
+| SupplyNumber      | Number   | min : 1 <br/> max : 150 | 1       |
+| RightExclusive \* | checkbox | on <br/> undefined      | on      |
+| NonReissuance \*  | checkbox | on <br/> undefined      | on      |
+| ResaleRight       | select   | 1...10                  | 8       |
+
+###### Pro version
+
+| Name    | Type   | Description             | Example            |
+| :------ | :----- | :---------------------- | :----------------- |
+| userKey | String | min : 42 <br/> max : 42 | empty if demo mode |
+
+###### Misc
+
+| Name       | Type   | Description | Example |
+| :--------- | :----- | :---------- | :------ |
+| VersionApi | select | v1.0        | v1.0    |
+
+\* optional
 
 ### JS example
 
