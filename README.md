@@ -1,8 +1,8 @@
 # Āto API docs
 
-Āto API allows users to create intellectual property licenses for NFTs. 
+Āto API allows users to create intellectual property licenses for NFTs.
 
-The documentation is live at: 
+The documentation is live at:
 
 [https://ato.works](https://ato.works)
 
@@ -20,4 +20,3 @@ The documentation is live at:
 - Email: [julien@ato.network](mailto:julien@ato.network)
 - Discord: [https://discord.gg/2sFr3dqvfg](https://discord.gg/2sFr3dqvfg)
 - Twitter: [https://twitter.com/julienbrg](https://twitter.com/julienbrg)
-

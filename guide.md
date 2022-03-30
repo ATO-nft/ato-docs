@@ -35,9 +35,11 @@ JSONValues = {
 }
 ```
 
-#### Expected vales
+##### Expected values
 
 [tableau]
+
+### JS example
 
 In your app, add the following script:
 
@@ -93,3 +95,14 @@ If the pdf file is blank, please check the UTF-8 convertion.
 - Add the [api-server](https://github.com/ATO-nft/api-core/blob/main/api-server.js) file in your Nodejs server
 - Adjust the server port line 78 (default is 8080)
 - Run the server: `node api-server.js`
+
+Here's what your access object should look like:
+
+```javascript
+access : {
+   "user_id":"0x0000000000000000000000000000000000000000",
+   "pass":"jjr0UrM0Sm53qGqJqHQDN/val1FBhXhfFAXUC93rG4bW5MTrmfHVO7FRhv/i8C+HNi/yOhZaaucC+EdLpavYfc9VZMbny/mz5pOwT9Q4njk7WrN9tixLrnK+KB/hn/jjkRgJ3vB0zAKtVUmk2OZb3XxBymOTDwlGoNcV2MHVva/uMEJVeJR6qCgPfIBhbOTTM6dzFlEzjIHyZrrEpTyUcHAihbJSOQbnDDJ8Bp5T8WjLUNkVAEy59sBGr5qYXcUiU9vPVJGZ2/vjelXqAO41DCblOgn55bg4z4868ZA9OVHmFh3yY2N3iVEu7gEKfpFr00AF/vQQEsJrI31A9Tu7OQ==",
+   "userNetwork":"Rinkeby",
+   "api":"v1.0"
+}
+```
