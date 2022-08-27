@@ -2,7 +2,7 @@ input: .
 output: .retype
 url: https://ato.works/
 branding:
-  title: Āto API
+  title: Āto Docs
   label: Docs
 links:
   - text: Getting Started
