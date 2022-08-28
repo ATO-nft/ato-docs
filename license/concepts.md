@@ -1,3 +1,7 @@
+---
+order: 0
+---
+
 - `ArtworkName`: the name of the NFT
 - `FileName`: the name of the media file linked with the NFT
 - `FileType`: the extension of the media file

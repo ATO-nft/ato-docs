@@ -1,3 +1,7 @@
+---
+order: 500
+---
+
 # Integration guide
 
 ## Use the live demo
