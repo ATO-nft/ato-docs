@@ -1,14 +1,22 @@
-# Integration guide
+---
+order: 800
+icon: rocket
+---
+
+# Quickstart
 
 ## Use the live demo
 
-Go to the following page and click on the `Download License` button:
+If you're in a hurry:
 
-[https://ato.works/ato-api-form.html](https://ato.works/ato-api-form.html)
+- go to [https://ato.network/license](https://ato.network/license)
+- fill out the form
+- select `Demo` as a mode
+- click on `Download license`
 
 ## Integrate in demo mode
 
-Add this JS file in your project: [https://github.com/ATO-nft/api-client/blob/main/ato-api-form.js](https://github.com/ATO-nft/api-client/blob/main/ato-api-form.js)
+Add this JS file in your project: [https://github.com/ATO-nft/ato-docs/blob/main/ato-api-form.js](https://github.com/ATO-nft/ato-docs/blob/main/ato-api-form.js)
 
 Here's an example of a json object to send to the server (placeholder values):
 
