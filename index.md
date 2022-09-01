@@ -1,12 +1,12 @@
-# Āto 1.0
+# Āto v1.0
 
-Āto allows you to create IP licenses for your NFTs.
+Āto allows you to easily create IP licenses for your NFTs.
 
 [https://ato.network/](https://ato.network/)
 
 ## Overview
 
-Āto 1.0 includes the following apps:
+**Āto v1.0** includes the following apps:
 
 - License generator (API and UI)
 - Scanner (API and UI)

@@ -1,6 +1,6 @@
 ---
 order: 800
-icon: git-branch
+icon: rocket
 ---
 
 # Quickstart
@@ -16,7 +16,7 @@ If you're in a hurry:
 
 ## Integrate in demo mode
 
-Add this JS file in your project: [https://github.com/ATO-nft/api-client/blob/main/ato-api-form.js](https://github.com/ATO-nft/api-client/blob/main/ato-api-form.js)
+Add this JS file in your project: [https://github.com/ATO-nft/ato-docs/blob/main/ato-api-form.js](https://github.com/ATO-nft/ato-docs/blob/main/ato-api-form.js)
 
 Here's an example of a json object to send to the server (placeholder values):
 

@@ -21,6 +21,4 @@ retype watch
 
 ## Support
 
-- Email: [julien@ato.network](mailto:julien@ato.network)
-- Discord: [https://discord.gg/2sFr3dqvfg](https://discord.gg/2sFr3dqvfg)
-- Twitter: [https://twitter.com/julienbrg](https://twitter.com/julienbrg)
+You can contact us via [Element](https://matrix.to/#/@julienbrg:matrix.org) (preferred), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), [LinkedIn](https://www.linkedin.com/in/julienberanger/) or [email](mailto:julien@ato.network).

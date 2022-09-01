@@ -4,9 +4,24 @@ order: 500
 
 # Integration guide
 
+It usually take less than an hour to integrate Āto API. Your app send a bunch of parameters and gets a pdf file in response.
+
+We're available 24/7 to guide you through the integration process:
+
+1. Integration test (demo mode)
+2. Legal setup (with our IP specialist)
+3. API key generation (to use in prod)
+
+You can contact us via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), [LinkedIn](https://www.linkedin.com/in/julienberanger/) or [email](mailto:julien@ato.network)
+
 ## Use the live demo
 
-Go to the following page and click on the `Download License` button:
+- go to [https://ato.network/license](https://ato.network/license)
+- fill out the form
+- select `Demo` as a mode
+- click on `Download license`
+
+You can also do that using this static html file:
 
 [https://ato.works/ato-api-form.html](https://ato.works/ato-api-form.html)
 
@@ -141,11 +156,11 @@ a.click();
 window.URL.revokeObjectURL(url);
 ```
 
-If the pdf file is blank, please check the UTF-8 convertion.
+If the pdf file is blank, please check the UTF-8 conversion.
 
 ## Integrate in pro mode (multi-user)
 
-- [Contact us directly](https://github.com/ATO-nft/api-client#support), we will send you your API key.
+- Contact us directly via [Element](https://matrix.to/#/@julienbrg:matrix.org) (preferred), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), [LinkedIn](https://www.linkedin.com/in/julienberanger/) or [email](mailto:julien@ato.network), so we can send you an API key.
 - Send Rinkeby ETH to this address: `0xf1eeb16879a7ecbda10675dcdebeb27db96f1b87` (testnet)
 - Add the [api-server](https://github.com/ATO-nft/api-core/blob/main/api-server.js) file in your Nodejs server
 - Adjust the server port line 78 (default is 8080)
