@@ -5,41 +5,59 @@ icon: rocket
 
 # Quickstart
 
-## Use the live demo
+It usually take less than an hour to integrate Āto API. Your app sends a bunch of parameters and gets a pdf file in response.
 
-If you're in a hurry:
+We're available 24/7 to guide you through the integration process:
+
+1. Integration test (demo mode)
+2. Legal setup (with our IP specialist)
+3. API key generation (to use in prod)
+
+You can contact us via [Element](https://matrix.to/#/@julienbrg:matrix.org), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), [LinkedIn](https://www.linkedin.com/in/julienberanger/) or [email](mailto:julien@ato.network)
+
+## Use the live demo
 
 - go to [https://ato.network/license](https://ato.network/license)
 - fill out the form
 - select `Demo` as a mode
 - click on `Download license`
 
+You can also do that using this static html file:
+
+[https://ato.works/ato-api-form.html](https://ato.works/ato-api-form.html)
+
 ## Integrate in demo mode
 
-Add this JS file in your project: [https://github.com/ATO-nft/ato-docs/blob/main/ato-api-form.js](https://github.com/ATO-nft/ato-docs/blob/main/ato-api-form.js)
+Add this JS file in your project: [https://github.com/ATO-nft/api-client/blob/main/ato-api-form.js](https://github.com/ATO-nft/api-client/blob/main/ato-api-form.js)
 
 Here's an example of a json object to send to the server (placeholder values):
 
 ```json
-JSONValues = {
-  "ArtworkName": "NFT #1",
+{
+  "ArtworkName": "Blue Sky",
   "NftStandard": "ERC-721",
-  "NftLicence": "Art",
-  "ArtworkDesc": "This is a demo.",
-  "FileName": "artwork.png",
-  "FileType": "png",
-  "FileSize": "24000",
-  "CreatorName": "Francis",
-  "CreatorAddress": "0x0000000000000000000000000000000000000000",
-  "ListNetwork": "Polygon",
+  "ArtworkDesc": "The artwork description goes here.",
+  "FileName": "blue-sky.jpeg",
+  "FileType": "jpeg",
+  "FileSize": "51000",
+  "CreatorName": "Olivier",
+  "CreatorAddress": "0x00000This0is0my0Ethereum0address00000000",
+  "ListNetwork": "Ethereum",
+  "NftLicense": "Art",
   "RightLevel": "3",
-  "RightDuration": "70",
+  "RightAdapt": "on",
+  "RightLogo": "on",
+  "RightMerch": "on",
+  "RightDuration": " 70",
   "SupplyNumber": "1",
   "RightExclusive": "on",
   "NonReissuance": "on",
-  "ResaleRight": "8",
+  "ResaleRight": "8.0",
+  "Mode": "2",
   "userKey": "",
-  "VersionApi": "v1.0"
+  "PaymentToken": "Polygon",
+  "VersionApi": "1.0",
+  "VersionLicense": "1.0"
 }
 ```
 
@@ -145,11 +163,11 @@ a.click();
 window.URL.revokeObjectURL(url);
 ```
 
-If the pdf file is blank, please check the UTF-8 convertion.
+If the pdf file is blank, please check the UTF-8 conversion.
 
 ## Integrate in pro mode (multi-user)
 
-- [Contact us directly](https://github.com/ATO-nft/api-client#support), we will send you your API key.
+- Contact us directly via [Element](https://matrix.to/#/@julienbrg:matrix.org) (preferred), [Twitter](https://twitter.com/julienbrg), [Discord](https://discord.gg/xw9dCeQ94Y), [LinkedIn](https://www.linkedin.com/in/julienberanger/) or [email](mailto:julien@ato.network), so we can send you an API key.
 - Send Rinkeby ETH to this address: `0xf1eeb16879a7ecbda10675dcdebeb27db96f1b87` (testnet)
 - Add the [api-server](https://github.com/ATO-nft/api-core/blob/main/api-server.js) file in your Nodejs server
 - Adjust the server port line 78 (default is 8080)

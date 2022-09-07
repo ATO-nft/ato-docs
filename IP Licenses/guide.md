@@ -32,25 +32,31 @@ Add this JS file in your project: [https://github.com/ATO-nft/api-client/blob/ma
 Here's an example of a json object to send to the server (placeholder values):
 
 ```json
-JSONValues = {
-  "ArtworkName": "NFT #1",
+{
+  "ArtworkName": "Blue Sky",
   "NftStandard": "ERC-721",
-  "NftLicence": "Art",
-  "ArtworkDesc": "This is a demo.",
-  "FileName": "artwork.png",
-  "FileType": "png",
-  "FileSize": "24000",
-  "CreatorName": "Francis",
-  "CreatorAddress": "0x0000000000000000000000000000000000000000",
-  "ListNetwork": "Polygon",
+  "ArtworkDesc": "The artwork description goes here.",
+  "FileName": "blue-sky.jpeg",
+  "FileType": "jpeg",
+  "FileSize": "51000",
+  "CreatorName": "Olivier",
+  "CreatorAddress": "0x00000This0is0my0Ethereum0address00000000",
+  "ListNetwork": "Ethereum",
+  "NftLicense": "Art",
   "RightLevel": "3",
-  "RightDuration": "70",
+  "RightAdapt": "on",
+  "RightLogo": "on",
+  "RightMerch": "on",
+  "RightDuration": " 70",
   "SupplyNumber": "1",
   "RightExclusive": "on",
   "NonReissuance": "on",
-  "ResaleRight": "8",
+  "ResaleRight": "8.0",
+  "Mode": "2",
   "userKey": "",
-  "VersionApi": "v1.0"
+  "PaymentToken": "Polygon",
+  "VersionApi": "1.0",
+  "VersionLicense": "1.0"
 }
 ```
 
